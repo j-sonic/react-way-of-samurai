@@ -1,6 +1,12 @@
 .nav {
   grid-area: n;
   background-color: rgb(255, 126, 80);
+  padding: 10px;
+}
+
+.nav ul {
+  list-style: none;
+  padding: 0 15px;
 }
 
 .item {
@@ -8,7 +14,12 @@
 }
 .item a {
   color: white;
+  text-decoration: none;
 }
-.item.active a {
+/*.item.active a {*/
+/*  color: gold;*/
+/*}*/
+
+.item a.activeLink {
   color: gold;
 }
